@@ -14,7 +14,7 @@ import Badge from "./Badge";
 
 const MainSkills = () => {
   return (
-    <section className="pt-32">
+    <section className="pt-24 pb-8">
       <Badge name={"skills"} icon={<TbPacman />} />
       <h2 className="mt-12 mb-8 text-4xl">
         Some of my <span className="text-[#2cec8c]">Advantages</span>

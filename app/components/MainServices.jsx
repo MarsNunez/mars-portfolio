@@ -6,7 +6,7 @@ import { ImStatsDots } from "react-icons/im";
 
 const MainServices = () => {
   return (
-    <section>
+    <section className="pb-8">
       <Badge name={"services"} icon={<HiCog />} />
       <h2 className="mt-12 mb-8 text-4xl">
         My <span className="text-[#2cec8c]">Specializations</span>
