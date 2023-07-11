@@ -64,7 +64,7 @@ const MainContact = () => {
             id="subject"
             className="outline-none bg-transparent border-b-2 border-[#8e8e8e] focus:border-[#2cec8c] py-2 pb-3 w-full placeholder:text-[#8e8e8e]"
           >
-            <option selected className="text-black">
+            <option defaultValue className="text-black">
               Select a Subject
             </option>
             <option value="1" className="text-black">

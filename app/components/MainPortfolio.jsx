@@ -1,8 +1,12 @@
+"use client";
 import Badge from "./Badge";
 import { IoIosApps } from "react-icons/io";
 import ProjectCard from "./ProjectCard";
+import { getProjects } from "@/services";
+import { use } from "react";
 
 const MainPortfolio = () => {
+  const projects = use(getProjects()) || [];
   return (
     <section className="pt-24 pb-8">
       <Badge name={"portfolio"} icon={<IoIosApps />} />
@@ -10,8 +14,9 @@ const MainPortfolio = () => {
         Featured <span className="text-[#2cec8c]">Projects</span>
       </h2>
       <div className="flex flex-col gap-10">
-        <ProjectCard />
-        <ProjectCard />
+        {projects.map((project) => (
+          <ProjectCard key={project.node.link} projectData={project.node} />
+        ))}
       </div>
     </section>
   );
