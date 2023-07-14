@@ -14,83 +14,83 @@ import Badge from "./Badge";
 
 const MainSkills = () => {
   return (
-    <section className="pt-24 pb-8">
+    <section className="pt-10 md:pt-24 pb-8" id="skills">
       <Badge name={"skills"} icon={<TbPacman />} />
-      <h2 className="mt-12 mb-8 text-4xl">
+      <h2 className="mt-12 mb-8 text-3xl md:text-4xl text-center md:text-left">
         Some of my <span className="text-[#2cec8c]">Advantages</span>
       </h2>
-      <div className="grid grid-cols-4 grid-rows-3 gap-10 w-fit h-fit">
+      <div className="grid grid-cols-4 grid-rows-3 gap-[0.5rem] md:gap-10 w-fit h-fit mx-auto md:mx-0">
         <div>
-          <div className="rounded-xl w-fit text-7xl p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]">
+          <div className="rounded-xl w-fit text-3xl md:text-7xl p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]">
             <IoLogoJavascript />
           </div>
-          <p className="text-center text-[#8e8e8e] text-sm mt-1">JavaScript</p>
+          <p className="text-center text-[#8e8e8e] text-xs mt-1">JavaScript</p>
         </div>
         <div>
-          <div className="rounded-xl w-fit text-7xl p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]">
+          <div className="rounded-xl w-fit text-3xl md:text-7xl p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]">
             <FaSass />
           </div>
-          <p className="text-center text-[#8e8e8e] text-sm mt-1">Sass</p>
+          <p className="text-center text-[#8e8e8e] text-xs mt-1">Sass</p>
         </div>
         <div>
-          <div className="rounded-xl w-fit text-7xl p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]">
+          <div className="rounded-xl w-fit text-3xl md:text-7xl p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]">
             <BiLogoReact />
           </div>
-          <p className="text-center text-[#8e8e8e] text-sm mt-1">ReactJS</p>
+          <p className="text-center text-[#8e8e8e] text-xs mt-1">ReactJS</p>
         </div>
         <div>
           <div>
-            <TbBrandNextjs className="rounded-xl w-fit text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
+            <TbBrandNextjs className="rounded-xl w-fit text-[63px] md:text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
           </div>
-          <p className="text-center text-[#8e8e8e] text-sm mt-1">NextJS</p>
+          <p className="text-center text-[#8e8e8e] text-xs mt-1">NextJS</p>
         </div>
         <div>
           <div>
-            <SiTailwindcss className="rounded-xl w-fit text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
+            <SiTailwindcss className="rounded-xl w-fit text-[63px] md:text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
           </div>
-          <p className="text-center text-[#8e8e8e] text-sm mt-1">TailwindCSS</p>
+          <p className="text-center text-[#8e8e8e] text-xs mt-1">TailwindCSS</p>
         </div>
         <div>
           <div>
-            <FaGitAlt className="rounded-xl w-fit text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
+            <FaGitAlt className="rounded-xl w-fit text-[63px] md:text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
           </div>
-          <p className="text-center text-[#8e8e8e] text-sm mt-1">Git</p>
+          <p className="text-center text-[#8e8e8e] text-xs mt-1">Git</p>
         </div>
         <div>
           <div>
-            <FaPython className="rounded-xl w-fit text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
+            <FaPython className="rounded-xl w-fit text-[63px] md:text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
           </div>
-          <p className="text-center text-[#8e8e8e] text-sm mt-1">Python</p>
+          <p className="text-center text-[#8e8e8e] text-xs mt-1">Python</p>
         </div>
         <div>
           <div>
-            <SiDjango className="rounded-xl w-fit text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
+            <SiDjango className="rounded-xl w-fit text-[63px] md:text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
           </div>
-          <p className="text-center text-[#8e8e8e] text-sm mt-1">Django</p>
+          <p className="text-center text-[#8e8e8e] text-xs mt-1">Django</p>
         </div>
         <div>
           <div>
-            <FaJava className="rounded-xl w-fit text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
+            <FaJava className="rounded-xl w-fit text-[63px] md:text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
           </div>
-          <p className="text-center text-[#8e8e8e] text-sm mt-1">Java</p>
+          <p className="text-center text-[#8e8e8e] text-xs mt-1">Java</p>
         </div>
         <div>
           <div>
-            <SiRedux className="rounded-xl w-fit text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
+            <SiRedux className="rounded-xl w-fit text-[63px] md:text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
           </div>
-          <p className="text-center text-[#8e8e8e] text-sm mt-1">Redux</p>
+          <p className="text-center text-[#8e8e8e] text-xs mt-1">Redux</p>
         </div>
         <div>
           <div>
-            <AiFillHtml5 className="rounded-xl w-fit text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
+            <AiFillHtml5 className="rounded-xl w-fit text-[63px] md:text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
           </div>
-          <p className="text-center text-[#8e8e8e] text-sm mt-1">HTML5</p>
+          <p className="text-center text-[#8e8e8e] text-xs mt-1">HTML5</p>
         </div>
         <div>
           <div>
-            <FaBootstrap className="rounded-xl w-fit text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
+            <FaBootstrap className="rounded-xl w-fit text-[63px] md:text-[105px] p-4 border border-[#2cec8c] text-[#2cec8c] bg-[#262526]" />
           </div>
-          <p className="text-center text-[#8e8e8e] text-sm mt-1">Bootstrap</p>
+          <p className="text-center text-[#8e8e8e] text-xs mt-1">Bootstrap</p>
         </div>
       </div>
     </section>

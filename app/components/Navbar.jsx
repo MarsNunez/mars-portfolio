@@ -7,19 +7,31 @@ import { BsChatDotsFill } from "react-icons/bs";
 
 const Navbar = () => {
   return (
-    <div className="ml-auto border w-fit text-xl rounded-full py-4 px-2 flex justify-center items-center flex-col gap-4 border-[#454545] text-[#8e8e8e] h-fit">
+    <div className="md:ml-auto text-[#2cec8c] border w-fit text-xl rounded-full py-4 px-2 flex justify-center items-center mx-auto md:mx-0 md:flex-col gap-4 border-[#454545] h-fit">
       {/* Home */}
-      <PiHouseLight className="text-[#2cec8c]" />
+      <a href={"#home"}>
+        <PiHouseLight />
+      </a>
       {/* About */}
-      <AiOutlineUser />
+      <a href="#about">
+        <AiOutlineUser />
+      </a>
       {/* Services */}
-      <HiCog />
+      <a href="#services">
+        <HiCog />
+      </a>
       {/* Skills */}
-      <TbPacman />
+      <a href="#skills">
+        <TbPacman />
+      </a>
       {/* Projects */}
-      <IoIosApps />
+      <a href="#projects">
+        <IoIosApps />
+      </a>
       {/* Contact */}
-      <BsChatDotsFill className="text-base" />
+      <a href="#contact">
+        <BsChatDotsFill className="text-base" />
+      </a>
     </div>
   );
 };

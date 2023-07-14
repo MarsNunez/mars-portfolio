@@ -6,11 +6,11 @@ import PersonalCard from "./components/PersonalCard";
 export default function Home() {
   return (
     <main>
-      <div className="text-[#fffdff] min-h-screen flex gap-10 max-w-[85rem] mx-auto px-3 pt-0">
-        <div className="sticky top-0 h-fit pt-3">
+      <div className="text-[#fffdff] min-h-screen md:flex gap-10 max-w-[85rem] mx-auto px-3 pt-0">
+        <div className="md:sticky top-0 pt-3 flex items-center md:max-h-screen">
           <PersonalCard />
         </div>
-        <div className="min-w-[800px]">
+        <div className="md:min-w-[800px]">
           <MainContent />
         </div>
         <div className="w-full flex items-center max-h-screen sticky top-0">

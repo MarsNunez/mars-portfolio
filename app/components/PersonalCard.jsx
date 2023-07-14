@@ -9,16 +9,16 @@ import { BsStackOverflow } from "react-icons/bs";
 
 const PersonalCard = () => {
   return (
-    <div className="border border-[#454545] rounded-2xl py-8 px-8">
-      <div>
+    <div className="border border-[#454545] rounded-2xl py-8 px-8 pt-4 md:pt-8 w-full h-full md:h-fit">
+      <div className="text-center">
         <h1 className="text-4xl">Mars Nunez</h1>
         <div>
-          <h2 className="text-sm text-[#8e8e8e]">
+          <h2 className="text-md mt-1 md:mt-0 md:text-sm text-[#8e8e8e]">
             Software Developer <br />& Entrepeneur
           </h2>
         </div>
       </div>
-      <figure className="w-64 mx-auto my-10">
+      <figure className="w-[13rem] md:w-64 mx-auto my-10">
         <img
           src="/img/mars.jpg"
           alt="face-image"
@@ -26,7 +26,7 @@ const PersonalCard = () => {
         />
       </figure>
 
-      <div className="flex items-center text-xl w-fit mx-auto">
+      <div className="flex items-center text-md md:text-xl w-fit mx-auto">
         <h3>Hello New World</h3>
         <img
           src="/img/waving-hand.png"
@@ -35,7 +35,7 @@ const PersonalCard = () => {
         />
       </div>
 
-      <div className="flex items-center text-xl w-fit mx-auto">
+      <div className="flex items-center ext-md md:text-xl w-fit mx-auto">
         <p>Greetings from Ireland </p>
         <img
           src="/img/ireland-flag.png"
@@ -63,9 +63,12 @@ const PersonalCard = () => {
         </li>
       </ul>
 
-      <button className="flex items-center bg-[#2cec8c] text-[#262526] w-full justify-center gap-3 py-2 rounded-3xl mt-8 hover:text-[#2cec8c] hover:bg-[#262526] duration-150 ease-in-out border border-transparent hover:border hover:border-[#2cec8c]">
+      <a
+        href="#contact"
+        className="flex items-center bg-[#2cec8c] text-[#262526] w-full justify-center gap-3 py-2 rounded-3xl mt-8 hover:text-[#2cec8c] hover:bg-[#262526] duration-150 ease-in-out border border-transparent hover:border hover:border-[#2cec8c]"
+      >
         <AiFillMessage /> Hit Me Up!
-      </button>
+      </a>
     </div>
   );
 };

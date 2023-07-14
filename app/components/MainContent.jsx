@@ -7,7 +7,7 @@ import MainSkills from "./MainSkills";
 
 const MainContent = () => {
   return (
-    <div className="pl-20">
+    <div className="md:pl-20">
       <MainIntroduce />
       <MainAbout />
       <MainServices />
